@@ -13,6 +13,8 @@ class LoginPasswordTextFormField extends StatelessWidget {
           ],
         ),
         const CustomTextFormField(
+          hintText: "Enter your password",
+          icon: BoxIcons.bx_lock,
           bottom: 0.001,
           top: 0.001,
         ),

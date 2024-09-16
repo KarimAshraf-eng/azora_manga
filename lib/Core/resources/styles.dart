@@ -6,13 +6,30 @@ abstract class TextStyles {
     fontWeight: semiBold,
     fontFamily: 'SofadiOne',
   );
+
+  static TextStyle regular_25 = const TextStyle(
+    fontSize: 25,
+    fontWeight: regular,
+  );
+
   static TextStyle sofadiOne_25 = const TextStyle(
     fontSize: 25,
     fontWeight: semiBold,
     fontFamily: 'SofadiOne',
   );
+  static TextStyle sofadiOneSecondryColor_18 = const TextStyle(
+    fontSize: 25,
+    color: secondryColor,
+    fontFamily: 'SofadiOne',
+  );
+
   static TextStyle sofadiOneThiredColor_15 = const TextStyle(
     fontSize: 15,
+    color: thiredColor,
+    fontFamily: 'SofadiOne',
+  );
+  static TextStyle sofadiOneThiredColor_20 = const TextStyle(
+    fontSize: 20,
     color: thiredColor,
     fontFamily: 'SofadiOne',
   );
@@ -21,9 +38,5 @@ abstract class TextStyles {
     fontWeight: extraBold,
     fontFamily: 'SofadiOne'
   );
-  static TextStyle sofadiOneSecondryColor_18 = const TextStyle(
-    fontSize: 25,
-    color: secondryColor,
-    fontFamily: 'SofadiOne',
-  );
+  
 }

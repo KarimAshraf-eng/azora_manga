@@ -19,6 +19,8 @@ class LoginEmailTextFormField extends StatelessWidget {
           ),
         ),
         const CustomTextFormField(
+              hintText: "Enter your email",
+              icon: BoxIcons.bx_envelope,
               bottom: 0.03,
               top: 0.001,
             ),

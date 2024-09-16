@@ -12,7 +12,10 @@ class AzoraManga extends StatelessWidget {
     return MaterialApp.router(
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark().copyWith(
-        scaffoldBackgroundColor: secondryColor
+        scaffoldBackgroundColor: secondryColor,
+        appBarTheme: const AppBarTheme(
+          backgroundColor: secondryColor
+        )
       ),
       routerConfig: AppRouter.router,
     );

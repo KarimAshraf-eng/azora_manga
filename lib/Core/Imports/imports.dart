@@ -18,6 +18,18 @@ export 'package:azora_manga/Features/auth/Presentation/Views/Widgets/Login_Widge
 export 'package:azora_manga/Features/auth/Presentation/Views/Widgets/Login_Widgets/login_welcom.dart';
 export 'package:azora_manga/Features/auth/Presentation/Views/Widgets/Login_Widgets/login_email_text_form_field.dart';
 export 'package:azora_manga/Features/auth/Presentation/Views/Widgets/Login_Widgets/login_password_text_form_field.dart';
+export 'package:icons_plus/icons_plus.dart';
+export 'package:azora_manga/Features/Home/data/data.dart';
+export 'package:google_nav_bar/google_nav_bar.dart';
+export 'package:azora_manga/Features/Home/Presentation/Views/Widgets/Home_Body/home_body.dart';
+export 'package:azora_manga/Features/Home/Presentation/Views/Widgets/Home_Body/home_nav_bar.dart';
+export 'package:azora_manga/Features/Home/Presentation/Views/Widgets/Home_Body/home_pages.dart';
+export 'package:azora_manga/Features/Home/Presentation/Views/Widgets/Home_Body/home_app_bar.dart';
+export 'package:azora_manga/Features/Home/Presentation/Views/Widgets/Home_Body/Home_Page/home_page.dart';
+export 'package:carousel_slider/carousel_slider.dart';
+export 'package:azora_manga/Features/Home/Presentation/Views/Widgets/Home_Body/Home_Page/home_page_widget_carousel.dart';
+export 'package:azora_manga/Features/Home/Presentation/Views/Widgets/Home_Body/Home_Page/home_page_carousel.dart';
+export 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 
 
